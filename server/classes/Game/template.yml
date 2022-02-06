@@ -1,0 +1,25 @@
+preAuthorizer: index.preAuthorizer
+init:
+  handler: index.init
+  inputModel: CreateGame
+getState: index.getState
+methods:
+  - method: join
+    tag: chess
+    sync: true
+    steps:
+      - id: default
+        handler: index.join
+  - method: play
+    tag: game
+    sync: true
+    inputModel: Play
+    steps:
+      - id: default
+        handler: index.play
+  - method: leave
+    tag: game
+    sync: true
+    steps:
+      - id: default
+        handler: index.leave

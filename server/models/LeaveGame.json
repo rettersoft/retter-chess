@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "gameId": {
+      "type": "string",
+      "description": "Game's id.",
+      "minimum": 3
+    }
+  },
+  "required": ["gameId"]
+}

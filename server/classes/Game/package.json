@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "dependencies": {
+    "@retter/rdk": "1.0.8",
+    "js-chess-engine": "1.0.2"
+  }
+}

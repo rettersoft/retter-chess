@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "side": {
+      "type": "string",
+      "enum": ["white", "black"],
+      "default": "white"
+    }
+  }
+}

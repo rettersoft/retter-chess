@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "from": {
+      "type": "string",
+      "description": "Piece from.",
+      "minimum": 1
+    },
+    "to": {
+      "type": "string",
+      "description": "Piece to.",
+      "minimum": 1
+    }
+  },
+  "required": ["from", "to"]
+}

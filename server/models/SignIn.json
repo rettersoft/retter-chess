@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "password": {
+      "type": "string",
+      "description": "Player's password.",
+      "minimum": 3
+    }
+  },
+  "required": ["password"]
+}

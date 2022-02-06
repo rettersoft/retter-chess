@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "gameId": {
+      "type": "string",
+      "description": "Game's id.",
+      "minimum": 3
+    },
+    "side": {
+      "type": "string",
+      "description": "Black or white.",
+      "enum": [ "black", "white" ]
+    }
+  },
+  "required": ["gameId", "side"]
+}
