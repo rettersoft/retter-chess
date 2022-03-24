@@ -6,26 +6,18 @@ methods:
     type: WRITE
     sync: true
     inputModel: SignUp
-    steps:
-      - id: default
-        handler: index.signUp
+    handler: index.signUp
   - method: signIn
     tag: profile
     type: READ
     sync: true
     inputModel: SignIn
-    steps:
-      - id: default
-        handler: index.signIn
+    handler: index.signIn
   - method: joinGame
     tag: game
     inputModel: JoinGame
-    steps:
-      - id: default
-        handler: index.joinGame
+    handler: index.joinGame
   - method: leaveGame
     tag: game
     inputModel: LeaveGame
-    steps:
-      - id: default
-        handler: index.leaveGame
+    handler: index.leaveGame
